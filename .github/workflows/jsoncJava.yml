@@ -2,7 +2,7 @@ name: build java
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - "json-c-java17/**"
 jobs:
