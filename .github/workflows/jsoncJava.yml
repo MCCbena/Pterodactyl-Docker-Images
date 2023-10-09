@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - json-c-java17/**
+      - "json-c-java17/**"
 jobs:
   push:
     name: "json-c-java17"
