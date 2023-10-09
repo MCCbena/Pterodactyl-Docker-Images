@@ -22,9 +22,9 @@
 
 FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:17-jdk-jammy
 
-LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
+LABEL       author="MCCbena"
 
-LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/MCCbena/Pterodactyl-Docker-Images/"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 		apt-get update -y \

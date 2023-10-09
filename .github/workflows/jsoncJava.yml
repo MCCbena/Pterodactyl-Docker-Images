@@ -27,8 +27,8 @@ jobs:
           password: ${{ secrets.TOKEN }}
       - uses: docker/build-push-action@v4
         with:
-          context: ./java
-          file: ./java/${{ matrix.tag }}/Dockerfile
+          context: ./json-c-java17
+          file: ./json-c-java17/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
