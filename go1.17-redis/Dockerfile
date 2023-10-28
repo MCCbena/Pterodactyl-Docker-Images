@@ -27,7 +27,7 @@ LABEL       author="MCCbena"
 LABEL       org.opencontainers.image.source="https://github.com/MCCbena/Pterodactyl-Docker-Images/"
 LABEL       org.opencontainers.image.licenses=MIT
 
-RUN         apk add --update --no-cache ca-certificates tzdata redis-server \
+RUN         apk add --update --no-cache ca-certificates tzdata redis \
 	&& adduser -D -h /home/container container
 
 USER        container
